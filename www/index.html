@@ -1,0 +1,139 @@
+<!-- Copyright (c) 2012 Mobile Developer Solutions -->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+ <title></title>
+
+	<link rel="stylesheet" href="index.css" /> 
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script></head>
+  
+  <body onload="init();">
+	<div id="header" >
+		<h1><strong>Седмична програма  - Евроучилище РОВЕЛ </strong></h1>
+	</div>
+	<div id="subheader">
+            <select>
+            	<option value="intro">12 клас</option>
+            	<option value="accelerometer">Понеделник</option>
+				<option value="camera">Вторник</option>
+				<option value="capture">Сряда</option>
+				<option value="compass">Четвъртък</option>
+				<option value="connection">Петък</option>
+			</select>
+    </div>
+	
+  <div id="sidebar">
+		  <ul>
+			  <li><a id="intro"><strong>12 клас </strong></a></li>
+			  <li><a id="po">Понеделник</a></li>
+			  <li><a id="vt">Вторник</a></li>
+			  <li><a id="sr">Сряда</a></li>
+			  <li><a id="che">Четвъртък</a></li>
+			  <li><a id="pe">Петък</a>
+				  <!-- /sidebar -->
+	</li>
+		  </ul>
+	</div>
+	<div id="scrollable">
+        <div id="content">                
+		    <div class="api-div" id="api-intro">
+		         <h2>Седмична програма за 12 клас</h2>
+				<div>
+				<h4>Интерактивна от Декември 2013г.</h4>
+				<h4> Изработва се от учениците в заниманията по интереси</h4>
+				
+				<p style="color:#767573;">&copy; Ръководител: Даниел Дилов</p>
+				</div>		    					
+			</div>
+
+		    <div class="api-div" id="api-po">
+		         <h2>Понеделник</h2>
+				<blockquote>
+  					<p>Седмична програма - първи срок 2013/2014 учебна година</p>
+				</blockquote>
+				1	Свят и личност<br>
+				2	Английски език<br>
+				3	История и цивилизац.<br>
+				4	БЕЛ<br>
+				5	Английски език<br>
+				6	Свят и личност<br>
+				7	Физика и астроном.
+			</div>
+
+		    <div class="api-div" id="api-vt">
+                <h2>Вторник</h2>
+				<blockquote>
+  					<p>Седмична програма - първи срок 2013/2014 учебна година</p>
+				</blockquote>
+				1	ФВС<br>
+				2	Английски език<br>
+				3	Английски език<br>
+				4	Инф.технологии<br>
+				5	Математика<br>
+				6	Исп./Нем. език<br>
+				7	Исп./Нем. език
+			</div>
+
+		    <div class="api-div" id="api-sr">
+				<h2>Сряда</h2>
+				<blockquote>
+  					<p>Седмична програма - първи срок 2013/2014 учебна година</p>
+				</blockquote>
+				1	ЧК<br>
+				2	История и цивилизац.<br>
+				3	Исп./Нем. език<br>
+				4	Инф.технологии<br>
+				5	Английски език<br>
+				6	История и цивилизац.<br>
+				7	История и цивилизац.
+			</div>
+
+		    <div class="api-div" id="api-che">
+				<h2>Четвъртък</h2>
+				<blockquote>
+  					<p>Седмична програма - първи срок 2013/2014 учебна година</p>
+				</blockquote>
+				1	Английски език<br>
+				2	БЕЛ<br>
+				3	БЕЛ<br>
+				4	Английски език<br>
+				5	Инф.технологии<br>
+				6	Исп./Нем. език
+    		</div>
+
+		    <div class="api-div" id="api-pe">
+				<h2>Петък</h2>
+				<blockquote>
+  					<p>Седмична програма - първи срок 2013/2014 учебна година</p>
+				</blockquote>
+				1	ФВС<br>
+				2	Английски език<br>
+				3	Английски език<br>
+				4	Математика<br>
+				5	Инф.технологии<br>
+				6	География и икон.
+			</div>
+
+		    	  
+      </div>
+    </div>	<!-- /scrollable -->
+	<div id="footer" >
+		<h1>&copy; 2012 Mobile Developer Solutions</h1>
+	</div>
+<!--  	<script type="text/javascript" charset="utf-8" src="index.js"></script> -->
+	<script type="text/javascript" charset="utf-8" src="apis/accelerometer.js"></script>
+ 	<script type="text/javascript" charset="utf-8" src="apis/camera.js"></script>
+ 	<script type="text/javascript" charset="utf-8" src="apis/capture.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/compass.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/connection.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/contacts.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/device.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/events.js"></script>
+ 	<script type="text/javascript" charset="utf-8" src="apis/file.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/geolocation.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/media.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/notification.js"></script>
+	<script type="text/javascript" charset="utf-8" src="apis/storage.js"></script>			
+  </body>
+</html>
